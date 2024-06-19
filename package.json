@@ -1,5 +1,6 @@
 {
-  "name": "protractor",
+  "name": "protractor-chrome-updates",
+  "version": "1.0.0",
   "description": "Webdriver E2E test wrapper for Angular.",
   "homepage": "https://github.com/angular/protractor",
   "keywords": [
@@ -10,7 +11,10 @@
     "webdriverjs",
     "selenium"
   ],
-  "author": "Julie Ralph <ju.ralph@gmail.com>",
+  "authors": [
+    "Julie Ralph <ju.ralph@gmail.com>",
+    "Kiryl Shytsikau <shytsikau.kiryl@gmail.com>"
+  ],
   "dependencies": {
     "blocking-proxy": "^1.0.0",
     "browserstack": "^1.5.1",
@@ -75,9 +79,5 @@
   "license": "MIT",
   "engines": {
     "node": ">=8.8.x"
-  },
-  "version": "6.0.0",
-  "publishConfig":{
-    "registry": "https://wombat-dressing-room.appspot.com"
   }
 }
